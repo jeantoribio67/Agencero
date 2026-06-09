@@ -1,11 +1,47 @@
-<div align="center">
+# vibe-template
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A React + TypeScript template powered by Vite, Tailwind CSS, and shadcn/ui components.
 
-  <h1>Built with AI Studio</h2>
+## Requirements
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- Node.js 18+ (LTS recommended)
+- npm
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Getting started
 
-</div>
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Available scripts
+
+- `npm run dev` - start Vite in development mode
+- `npm run build` - create a production build
+- `npm run build:dev` - create a development-mode build
+- `npm run preview` - preview the production build locally
+- `npm run lint` - run ESLint checks
+- `npm run test` - run Vitest tests once
+- `npm run test:watch` - run Vitest in watch mode
+
+## Verification commands
+
+Use these to verify repository health:
+
+```bash
+npm run lint
+npm run test
+npm run build
+npx tsc --noEmit
+```
+
+## Lockfile policy
+
+This repository does not track `package-lock.json`.
